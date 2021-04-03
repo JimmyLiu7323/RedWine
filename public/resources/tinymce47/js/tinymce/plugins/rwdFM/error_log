@@ -1,0 +1,1 @@
+[09-May-2018 14:56:23 Europe/Rome] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 14032 bytes) in /home/ytop/public_html/libs/tinymce47/js/tinymce/plugins/rwdFM/include/php_image_magician.php on line 2737

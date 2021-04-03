@@ -1,0 +1,178 @@
+img{
+    max-width: 100%;
+}
+.inline-block{
+    display: inline-block;
+}
+.app-login{
+	background:#0c3f4d;
+}
+.app-login .app-body .app-block .app-form .form-header .highlight {
+    color: #fff;
+    background: #0c3f4d;
+    display: inline-block;
+    padding: 3px 10px;
+}
+.app-login .app-body .app-block .app-form form .btn-submit {
+    border-color: #0c3f4d;
+    border-bottom-color: #0c3f4d;
+    background-color: #0c3f4d;
+    box-shadow: 0 2px 3px rgba(41, 153, 199, 0.3);
+}
+.visitor_chart{
+	margin: 0 0 0 20px;
+}
+.select2{
+    width:150px;
+    margin-bottom:0;
+}
+.select2-container{
+    z-index: 999999;
+}
+.empty_data{
+    text-align: center;
+    padding:50px 0;
+}
+.empty_data:before{
+    content:"資料不存在";
+    color:#ccc;
+}
+.error-icon {
+    padding: 0 0 20px 10px;
+    margin-top: -10px;
+    font-size: 12px;
+    color: #e74c3c;
+}
+.error-icon i {
+    padding-right: 7px;
+}
+.hideme{
+    display:none;
+}
+.w80{
+    width: 80%;
+    margin:auto;
+}
+.pad-btm-20{
+    padding-bottom:20px;
+}
+.pad-top-20{
+    padding-top:20px;
+}
+.pad-r-20{
+    padding-right:20px;
+}
+.circles-img{
+    margin-top:30px;
+    min-height:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circles-but{
+    padding:10px 0 30px 0;
+}
+.editor-img-list{
+    width:75px;
+    height:75px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border:#999 solid 1px;
+    margin: 0 10px 10px 0;
+    position: relative;
+}
+.editor-img-list .del{
+    display: none;
+    position:absolute;
+    right:0;
+    top:0;
+    color:#fff;
+    background:#c36;
+    padding:4px 7px;
+    cursor: pointer;
+}
+.editor-img-list:hover .del{
+    display:block;
+}
+.editor-img-list img{
+    height:100%;
+}
+.list-img{
+    height:90px;
+}
+.list-img img{
+    max-height:100%;
+}
+.modal-title-icon{
+    display: inline-block;
+    background-color: rgba(141, 146, 147, 0.15);
+    color: rgba(141, 146, 147, 0.45);
+    padding:10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#rel_files>div{
+    padding:10px 0;
+    font-size: 18px;
+}
+#rel_files>div .del{
+    margin-left:15px;
+    cursor: pointer;
+}
+.small-notes{
+    color:#999;
+    font-size: 12px;
+}
+.admin-img{
+    width:60px;
+}
+.admin-img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.profile-logout{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 72px;
+    padding: 10px 0;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+    color:#0c3f4d;
+    z-index: 9;
+}
+.back-srch{
+    padding:15px 30px;
+}
+.pad-btm-20{
+    padding-bottom: 20px;
+}
+select.form-control{
+    height:42px;
+    margin-bottom: 5px;
+}
+.back-srch input.form-control{
+    margin-bottom: 5px;
+}
+.tag{
+    display: inline-block;
+    padding:5px;
+    color:#fff;
+}
+.filter{
+    padding:15px 30px;
+}
+.dataTables_wrapper .row{
+    margin:0 15px;
+}
+.btn-fb-login{
+    clear: both;
+    width: calc(100% - 160px);
+    line-height: 2em;
+    position: absolute;
+    left: 80px;
+    bottom: 75px;
+}

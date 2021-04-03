@@ -1,0 +1,746 @@
+@charset "UTF-8";
+.main{
+  padding: 0;
+}
+#acc-main {
+  margin-left: 7.3%;
+}
+/* -------*/
+/* banner */
+/* -------*/
+.main-banner{
+  position: relative;
+  margin: 0 10px;
+}
+.main-banner-img {
+  position: relative;
+  width: 100%;
+  height: 30.15vw;
+  overflow: hidden;
+}
+.main-banner img { 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+/* --------*/
+/* popular */
+/* --------*/
+.main-popularBox{
+  position: relative;
+  width: 100%;
+  padding: 15px 10px 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.main-popular {
+  position: relative;
+  width: calc(50% - 5px);
+}
+.main-popular:nth-child(1){
+  float: left;
+}
+.main-popular:nth-child(2){
+  float: right;
+}
+.main-popular-category {
+  position: relative;
+  font-size: 1.375em;
+  line-height: 1em;
+  margin-bottom: 12px;
+  color: #0884bd;
+}
+.main-popular-category a {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.main-popular-category a img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.main-popular-img {
+  position: relative;
+  width: 100%;
+  height: 28.5vw;
+  overflow: hidden;
+}
+.main-popular-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
+.main-popular-text {
+  position: relative;
+  width: 100%;
+  height: 143px;
+  background-color: #4a90d2;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.main-popular-title {
+  position: relative;
+  font-size: 1.25em;
+  margin-bottom: 6px;
+  line-height: 1em;
+}
+.main-popular-info {
+  position: relative;
+  width: 100%;
+  height: 3.9em;
+  font-size: 1.0625em;
+  line-height: 1.3em;
+  /* ↓超過三行變成點點點 */
+  overflow:hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.main-popular-count {
+  position: relative;
+  font-size: 1.0625em;
+  line-height: 1.3em;
+}
+/* -----*/
+/* news */
+/* -----*/
+.main-newsBox{
+  position: relative;
+  width: 100%;
+  padding: 0 10px 25px;
+  box-sizing: border-box;
+}
+ul.main-newsBox-menu{
+  position: relative;
+  width: 100%;
+  padding-bottom: 2px;
+}
+ul.main-newsBox-menu li{
+  position: relative;
+  width: 44%;
+  max-width: 165px;
+  line-height: 50px;
+  font-size: 1.375em;
+  text-align: center;
+  color: #fff;
+  background-color: #54c4a8;
+  display: inline-block;
+}
+ul.main-newsBox-menu li.act {
+  background-color: #2c9f82;
+}
+ul.main-newsBox-menu li:not(:first-child){
+  margin-left: 3px;
+}
+ul.main-newsBox-menu li img{
+  position: relative;
+  width: 29px;
+  height: auto;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+.newsBox-menu-more {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+ul.main-newsBox-list {
+  position: relative;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+ul.main-newsBox-list li{
+  position: relative;
+  padding: 15px 0;
+  font-size: 1.0625em;
+  line-height: 1.5em;
+}
+ul.main-newsBox-list li:not(:last-child){
+  border-bottom: 1px solid #7fc7e3;
+}
+.newsBox-list-text {
+  position: relative;
+  /* ↓超過2行變成點點點 */
+  overflow:hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.newsBox-list-text:before {
+  content: "";
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+.newsBox-list-text.typeMessge:before {
+  background: url(../images/index/main-newsBox-message.png) no-repeat center;
+  background-size: contain;
+}
+.newsBox-list-text.typeActivity:before {
+  background: url(../images/index/main-newsBox-activity.png) no-repeat center;
+  background-size: contain;
+}
+.newsBox-list-date {
+  color: #0884bd;
+}
+.newsBox-list-info {
+  color: #666;
+}
+/* ----------*/
+/* knowledge */
+/* ----------*/
+.main-knowledgeBox{
+  position: relative;
+  width: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.main-knowledge{
+  position: relative;
+  width: 100%;
+}
+.main-knowledge-title {
+  position: relative;
+  font-size: 1.375em;
+  line-height: 1em;
+  margin-bottom: 15px;
+  color: #0884bd;
+}
+.main-knowledge-title a {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.main-knowledge-title a img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+ul.main-knowledge-list {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+ul.main-knowledge-list li{
+  position: relative;
+  padding-bottom: 10px;
+  width: calc(50% - 5px);
+  float: left;
+}
+ul.main-knowledge-list li:nth-child(odd){
+  margin-right: 10px;
+}
+.knowledge-list-img {
+  position: relative;
+  width: 100%;
+  height: 30vw;
+  overflow: hidden;
+}
+.knowledge-list-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
+.knowledge-list-info {
+  position: relative;
+  height: 3.9em;
+  padding: 10px;
+  font-size: 1.0625em;
+  line-height: 1.3em;
+  /* ↓超過三行變成點點點 */
+  overflow:hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  background-color: #f1f1f1;
+}
+/* ------------*/
+/* 目前所在氣象 */
+/* ------------*/
+.main-locationWeatherBox {
+  position: relative;
+  margin: 20px 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #e9f7fd;
+}
+.main-locationWeather-title,
+.locationWeather-info-title,
+.locationWeather-info-temp,
+.locationWeather-chart-title {
+  position: relative;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-weight: bold;
+  color: #4a90d2;
+}
+.main-locationWeather-more {
+  position: relative;
+  margin-left: 0.5em;
+}
+.main-locationWeather-more img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 2.5px;
+}
+/*------現在天氣(文字資訊)-------*/
+.main-locationWeather-info {
+  position: relative;
+  width: calc(50% - 10px);
+}
+.locationWeather-info-temp {
+  font-size: 2.5em;
+}
+.locationWeather-info-wxIcon{
+  position: relative;
+  width: 100%;
+  height: 57px;
+}
+.locationWeather-info-wxIcon img{
+  position: relative;
+  width: 57px;
+  height: 57px;
+  display: block;
+  float: right;
+}
+ul.locationWeather-info-data {
+  position: relative;
+  width: 100%;
+}
+ul.locationWeather-info-data li {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  font-size: 1.0625em;
+  display: inline-block;
+}
+ul.locationWeather-info-data li p{
+  position: relative;
+  width: 3em;
+  color: #4a90d2;
+  float: left;
+  margin-top: calc((39px - 1em)/2);
+}
+ul.locationWeather-info-data li:last-child p{
+  margin-top: calc((39px - 2em)/2);
+}
+ul.locationWeather-info-data li div{
+  position: relative;
+  width: calc(100% - 3.5em);
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  background-color: #4a90d2;
+  float: left;
+  border-radius: 5px;
+  padding: 0 0.5em;
+  margin-left: 0.5em;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+/*------圖表-------*/
+.main-locationWeather-chart {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+}
+.locationWeather-chart-title {
+  color: #54c4a8;
+}
+.locationWeather-chartBox {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;  
+}
+#locationWeather-chart {
+  position: relative;
+  width: 100%;
+}
+/*------天氣小提醒-------*/
+.main-locationWeather-tips {
+  position: absolute;
+  width: calc(50% - 20px);
+  top: 15px;
+  right: 15px;
+}
+.locationWeather-tips-text{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 6px #999;
+  margin-bottom: 40px;
+}
+.locationWeather-tips-text:before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -32px;
+  left: 18px;
+  border-style: solid;
+  border-width: 32px 12px 0 12px;
+  border-color: #ccc transparent transparent transparent;
+}
+.locationWeather-tips-text:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -30px;
+  left: 20px;
+  border-style: solid;
+  border-width: 30px 10px 0 10px;
+  border-color: #ffffff transparent transparent transparent;
+}
+.locationWeather-tips-text p {
+  font-size: 1.0625em;
+  line-height: 1.5em;
+  color: #4a90d2;
+}
+.locationWeather-tips-img{
+  position: relative;
+  width: 100%;
+}
+.locationWeather-tips-img img {
+  position: relative;
+  width: 72%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+/* 常用功能 */
+.main-oftenUsedBox {
+  position: relative;
+  width: 100%;
+  padding: 0 10px 20px;
+  box-sizing: border-box;
+}
+ul.main-oftenUse-list{
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+ul.main-oftenUse-list li {
+  position: relative;
+  float: left;
+  width: 50%;
+  padding: 20px 0;
+}
+ul.main-oftenUse-list li:nth-child(1),
+ul.main-oftenUse-list li:nth-child(4),
+ul.main-oftenUse-list li:nth-child(5){
+  background-color: #46ae94;
+}
+ul.main-oftenUse-list li:nth-child(2),
+ul.main-oftenUse-list li:nth-child(3),
+ul.main-oftenUse-list li:nth-child(6){
+  background-color: #4fc4a7;
+}
+.oftenUse-list-img {
+  position: relative;
+  width: 100%;
+  height: 65px;
+}
+ul.main-oftenUse-list li:nth-child(1) .oftenUse-list-img {
+  background: url(../images/index/main-oftenUseBtn1.svg) no-repeat center;
+  background-size: contain;
+}
+ul.main-oftenUse-list li:nth-child(2) .oftenUse-list-img {
+  background: url(../images/index/main-oftenUseBtn2.svg) no-repeat center;
+  background-size: contain;
+}
+ul.main-oftenUse-list li:nth-child(3) .oftenUse-list-img {
+  background: url(../images/index/main-oftenUseBtn3.svg) no-repeat center;
+  background-size: contain;
+}
+ul.main-oftenUse-list li:nth-child(4) .oftenUse-list-img {
+  background: url(../images/index/main-oftenUseBtn4.svg) no-repeat center;
+  background-size: contain;
+}
+ul.main-oftenUse-list li:nth-child(5) .oftenUse-list-img {
+  background: url(../images/index/main-oftenUseBtn5.svg) no-repeat center;
+  background-size: contain;
+}
+ul.main-oftenUse-list li:nth-child(6) .oftenUse-list-img {
+  background: url(../images/index/main-oftenUseBtn6.svg) no-repeat center;
+  background-size: contain;
+}
+.oftenUse-list-title {
+  position: relative;
+  font-size: 1.125em;
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+}
+/**/
+/* --------- */
+/* 註解 */
+/* --------- */
+
+/* -------- */
+/* 小版 橫式 */
+/* -------- */
+.landscape {
+}
+/* ---- */
+/* 大版 */
+/* ---- */
+@media (min-width: 981px) {
+  /* -------*/
+  /* banner */
+  /* -------*/
+  .main-banner{
+    position: relative;
+    margin: 15px 7.3% 0;
+  }
+  /* -----------------*/
+  /* popular And News */
+  /* -----------------*/
+  .main-popularAndNewsBox {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 7.3%;
+    margin: 18px 0 30px;
+  }
+  /* --------*/
+  /* popular */
+  /* --------*/
+  .main-popularBox{
+    width: 460px;
+    padding: 0 20px 0 0;
+    float: left;
+  }
+  .main-popular {
+    width: calc(50% - 10px);
+  }
+  .main-popular:nth-child(1){
+    float: left;
+  }
+  .main-popular:nth-child(2){
+    float: right;
+  }
+  .main-popular-category {
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .main-popular-img {
+    height: 130px;
+  }
+  .main-popular-text {
+    height: 150px;
+    padding: 15px 13px;
+  }
+  .main-popular-title {
+    margin-bottom: 10px;
+  }
+  .main-popular-info {
+    height: 2.6em;
+    font-size: 0.9375em;
+    /* ↓超過二行變成點點點 */
+    -webkit-line-clamp: 2;
+  }
+  .main-popular-count {
+    font-size: 0.9375em;
+  }
+  /* -----*/
+  /* news */
+  /* -----*/
+  .main-newsBox{
+    width: calc(100% - 460px);
+    padding: 0;
+    float: left;
+  }
+  ul.main-newsBox-menu li{
+    line-height: calc(1em + 28px);
+    font-size: 1.5em;
+  }
+  ul.main-newsBox-list {
+    padding: 0 18px;
+    height: 280px;
+    overflow: hidden;
+  }
+  ul.main-newsBox-list li{
+    font-size: 1em;
+    padding: 14.6px 0;
+  }
+  .newsBox-list-text {
+    white-space : nowrap;
+  }
+  .newsBox-list-date {
+    margin-right: 10px;
+  }
+  .newsBox-list-info {
+    display: inline-block;
+    overflow : hidden;
+    text-overflow : ellipsis;
+    white-space : nowrap;
+    width: calc(100% - 150px);
+    vertical-align: top;
+  }
+  /* ----------*/
+  /* knowledge */
+  /* ----------*/
+  .main-knowledgeBox{
+    padding: 30px 7.3%;
+  }
+  .main-knowledge-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  ul.main-knowledge-list li{
+    padding-bottom: 0px;
+    width: calc((100% - 100px) / 5 );
+  }
+  ul.main-knowledge-list li:nth-child(odd){
+    margin-right: 0px;
+  }
+  ul.main-knowledge-list li:not(:last-child){
+    margin-right: 25px;
+  }
+  .knowledge-list-img {
+    height: 9.5vw;
+  }
+  .knowledge-list-info {
+    font-size: 1em;
+  }
+  /* ------------------------*/
+  /* 目前所在氣象 and 常用功能 */
+  /* ------------------------*/
+  .main-locationWeatherAndOftenUsedBox {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 7.3%;
+    margin: 30px 0 45px;    
+    overflow: hidden;
+  }
+  /* ------------*/
+  /* 目前所在氣象 */
+  /* ------------*/
+  .main-locationWeatherBox {
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    float: left;
+  }
+  /*------現在天氣(文字資訊) and 圖表+天氣小提醒-------*/
+  .main-locationWeather-infoAndChartAndTipsBox {
+    position: relative;
+    width: 100%;
+  }
+  /*------現在天氣(文字資訊)-------*/
+  .main-locationWeather-info {
+    position: relative;
+    width: 30%;
+    float: left;
+  }
+  /*------圖表 and 天氣小提醒-------*/
+  .main-locationWeather-chartAndTipsBox {
+    position: relative;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0 0 0 15px;
+    float: left;
+  }
+  /*------圖表-------*/
+  .main-locationWeather-chart {
+    width: 100%;
+    margin-top: 0;
+  }
+  /*------天氣小提醒-------*/
+  .main-locationWeather-tips {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+  }
+  .locationWeather-tips-text{
+    width: calc(78% - 32px);
+    margin-bottom: 0;
+    padding: 15px 25px;
+  }
+  .locationWeather-tips-text:before{
+    bottom: 50%;
+    left: initial;
+    right: -32px;
+    border-width: 12px 0 12px 32px;
+    border-color: transparent transparent transparent #ccc;
+  }
+  .locationWeather-tips-text:after{
+    bottom: 50%;
+    left: initial;
+    right: -30px;
+    border-width: 10px 0 10px 30px;
+    border-color: transparent transparent transparent #ffffff;
+  }
+  .locationWeather-tips-img{
+    position: absolute;
+    width: 22%;
+    height: 100%;
+    top: 0;
+    right: 0;
+  }
+  .locationWeather-tips-img img {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 120px;
+  }
+  /* 常用功能 */
+  .main-oftenUsedBox {
+    width: 30%;
+    padding: 0 0 0 25px;
+    float: left;
+  }
+}
+@media (min-width: 1024px) {
+  /*------現在天氣(文字資訊)-------*/
+  .main-locationWeather-info {
+    width: 26%;
+  }
+  /*------圖表 and 天氣小提醒-------*/
+  .main-locationWeather-chartAndTipsBox {
+    width: 74%;
+  }
+}
+/* ------ */
+/* 最大版 */
+/* ------ */
+@media (min-width: 1366px) {
+}
